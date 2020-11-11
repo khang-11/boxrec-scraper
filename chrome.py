@@ -52,7 +52,7 @@ def save_results(min: int, max: int):
 	errors = 0
 
 
-	login(driver, "khang11", "misterious1")
+	login(driver, "USERNAME", "PASSWORD")
 
 	for i in range(min, max + 1):
 		if (i % 5 == 0):
